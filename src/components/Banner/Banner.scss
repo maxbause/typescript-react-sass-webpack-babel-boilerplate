@@ -1,0 +1,12 @@
+@import "../../styles/colors";
+
+.banner {
+  background-color: $moccasin;
+  box-sizing: border-box;
+  padding: 2rem;
+  text-align: center;
+
+  &__text {
+    color: $dark-red;
+  }
+}

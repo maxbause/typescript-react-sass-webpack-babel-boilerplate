@@ -1,0 +1,32 @@
+{
+  "name": "typescript-react-sass-webpack-babel-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Max Bause",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.1.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "regenerator-runtime": "^0.13.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "webpack:dev": "npx webpack --config webpack.config.js"
+  }
+}
